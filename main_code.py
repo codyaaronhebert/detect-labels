@@ -32,6 +32,6 @@ def detect_labels(bucket, image):
 
 # Usage
 bucket_name = "icloud-replacement-test"
-image_name = "IMG_2359.jpeg"
+image_name = "IMG_2358.jpeg"
 num_labels = detect_labels(bucket_name, image_name)
 print(f"Total labels detected: {num_labels}")
